@@ -1,0 +1,564 @@
+/*fondo home*/
+.hero.is-primary,
+.hero.is-fullheight {
+    background-color: #012E40;
+}
+
+/* color del texto home */
+.hero-body .container * {
+    color: white !important; /* Texto blanco */
+}
+
+/* botón de Iniciar Sesión */
+.button.is-primary {
+    background-color: #026773;
+    color: white !important;
+    border: none;
+}
+
+.button.is-primary:hover {
+    background-color: #025560; 
+}
+
+/* botón de Registrarse*/
+.button.is-link {
+    background-color: #3ca6a6;
+    color: white !important;
+    border: none;
+}
+
+.button.is-link:hover {
+    opacity: 0.8;
+}
+
+.title.is-1 {
+    font-weight: 700; /* Hacer el título más prominente */
+    padding-bottom: 5%;
+}
+
+.subtitle.is-3 {
+    font-weight: 400; /* Mantener el peso normal para el subtítulo */
+    padding-bottom: 10%;
+}
+
+.login-hero {
+    background-color: #012E40; /* Asegurarse de que el fondo del hero sea el color deseado */
+}
+
+.login-box {
+    background-color: #024959; /* Nuevo color de fondo para el formulario */
+    padding: 2rem; /* Añadir un poco de espacio interno al formulario */
+}
+
+.login-title {
+    color: white !important;
+    font-family: 'Playfair Display', serif;
+}
+
+.login-label {
+    color: white !important;
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-button {
+    background-color: #3CA6A6;
+    color: white !important;
+    border: none;
+}
+
+.login-button:hover {
+    background-color: #318a8a;
+}
+
+.login-text {
+    color: white !important; /* Asegurar que el texto de los enlaces sea blanco */
+    font-family: 'Roboto', sans-serif;
+}
+
+.login-text a {
+    color: #F2E3d5 !important;
+}
+
+.login-text a:hover {
+    text-decoration: underline;
+}
+
+.login-box .input::placeholder {
+    color: #8faeb5;
+    opacity: 1;
+}
+
+.login-box .input {
+    color: #024959 !important;
+}
+
+.signup-button {
+    background-color: #3Ca6a6;
+    color: white !important;
+    border: none;
+}
+
+.signup-button:hover {
+    background-color: #318a8a; 
+}
+
+.back-to-home {
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+}
+
+.back-to-home .icon i {
+    color: #024959 !important;
+}
+
+/* Estilo para la notificación de error */
+.notification.is-danger.is-light {
+    background-color: #A52502;
+    color: #ffe0e0;
+}
+
+/* Estilo para la notificación de éxito */
+.notification.is-success.is-light {
+    background-color: #3CA6A6;
+    color:#e5ffe5;
+}
+
+.button.is-warning.is-fullwidth {
+    background-color: #962b09;
+}
+
+.title.is-2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.subtitle {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 2%;
+}
+
+/* Estilos para el encabezado de la aplicación */
+.app-header.hero.is-primary .hero-body { /* Añadimos `.app-header.hero.is-primary` al selector */
+    background-image: url('../assets/imgs/fondo.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.app-header .hero-body {
+    display: flex; /* Convierte el hero-body en un contenedor flexible */
+    flex-direction: column; /* Coloca los elementos en columna (logo arriba del título) */
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center; /* Centra los elementos horizontalmente */
+    text-align: center; /* Asegura que el texto también esté centrado */
+}
+
+.app-logo {
+    max-height: 200px; /* Ajusta el tamaño máximo del logo según necesites */
+    margin-bottom: 1rem; /* Añade espacio entre el logo y el título */
+}
+
+.app-title {
+    font-family: 'Playfair Display', serif;
+}
+
+.app-subtitle {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Estilos para los botones del menú (Centrados y con el nuevo estilo) */
+.navbar-start.is-flex.is-justify-content-center .navbar-item.menu-button {
+    background-color: #026773; /* El color que has especificado */
+    color: white !important;
+    border: none;
+    margin: 2rem; /* Añade un poco de espacio entre los botones */
+    padding: 2rem; /* Ajusta el padding para que parezcan botones */
+    border-radius: 5px; /* Opcional: añadir bordes redondeados */
+}
+
+.navbar-start.is-flex.is-justify-content-center .navbar-item.menu-button:hover {
+    background-color: #025560; /* Oscurecer al pasar el ratón */
+    border-radius: 5px;
+}
+
+.navbar-start.is-flex.is-justify-content-center .navbar-item.menu-button.is-active {
+    background-color: #3CA6A6; /* Un color diferente para la página activa */
+    color: white !important;
+}
+
+/* Estilo para el botón de cerrar sesión */
+.navbar-end .logout-button {
+    background-color: #CC8D1A;
+    color: white !important;
+    border: none;
+}
+
+.navbar-end .logout-button:hover {
+    background-color: #b07a15; /* Un tono ligeramente más oscuro al pasar el ratón */
+}
+
+/* Ajustar el estilo del navbar-item para que no tenga tanto padding por defecto */
+.navbar-item {
+    padding: 0.5rem 8rem;
+    border-radius: 5px;
+}
+
+/* Ajustar el navbar-menu para centrar los elementos */
+.navbar-menu.is-flex.is-justify-content-center {
+    flex-grow: 1; /* Permite que el menú crezca y centre los elementos */
+}
+
+.navbar-start {
+    margin: 0 auto; /* Centra el contenido de navbar-start dentro de navbar-menu */
+}
+
+/* Mover el botón de cerrar sesión más a la derecha */
+.navbar-end {
+    margin-left: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-menu.is-active {
+    max-height: none !important;
+    overflow-y: auto;
+  }
+
+  .navbar-start.is-flex { /* Aplicar estilos al contenedor flex, sin importar si está justificado al centro */
+    display: block !important;
+    text-align: left !important;
+  }
+
+  .navbar-start.is-flex .navbar-item { /* Estilos para los items dentro del contenedor flex */
+    display: block !important;
+    padding: 0.75rem 1rem !important;
+    text-align: left !important; /* Asegurar alineación izquierda del texto */
+  }
+
+  /* Anular estilos de botón centrados en pantallas pequeñas */
+  .navbar-start.is-flex.is-justify-content-center .navbar-item.menu-button {
+    margin: 0 !important;
+    padding: 0.75rem 1rem !important;
+    text-align: left !important; /* Asegurar alineación izquierda del texto */
+    background-color: transparent !important; /* Hacer el fondo transparente para que no parezca botón */
+    color: #4a4a4a !important; /* Color de texto por defecto de Bulma */
+    border-radius: 0 !important; /* Quitar bordes redondeados */
+  }
+
+  .navbar-start .navbar-item.has-dropdown .navbar-link {
+    text-align: left !important;
+  }
+
+  .navbar-start .navbar-item.has-dropdown .navbar-dropdown {
+    border-top: 1px solid #dbdbdb;
+  }
+
+  .navbar-end {
+    display: block !important;
+    text-align: left !important;
+    margin-left: 0 !important;
+  }
+
+  .navbar-end .navbar-item {
+    display: block !important;
+    padding: 0.75rem 1rem !important;
+  }
+
+  .navbar-end .buttons {
+    display: block !important;
+  }
+
+  .navbar-end .buttons a {
+    width: 100%;
+    margin-bottom: 0.5rem;
+    text-align: center;
+  }
+}
+
+/* Estilos para pantallas más grandes (desktop) - Mantener tus estilos de centrado */
+@media screen and (min-width: 769px) {
+  .navbar-start.is-flex.is-justify-content-center .navbar-item.menu-button {
+    background-color: #026773;
+    color: white !important;
+    border: none;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 5px;
+  }
+
+  .navbar-start.is-flex.is-justify-content-center .navbar-item.menu-button:hover {
+    background-color: #025560;
+    border-radius: 5px;
+  }
+
+  .navbar-start.is-flex.is-justify-content-center .navbar-item.menu-button.is-active {
+    background-color: #3CA6A6;
+    color: white !important;
+  }
+}
+
+.footer.content {
+    color: white !important; /* Asegúrate de que el color del texto dentro del content también sea blanco */
+}
+
+.footer strong {
+    color: white !important;
+}
+
+html, body {
+    height: 100%; /* Asegura que html y body ocupen toda la altura */
+}
+
+.hero.is-fullheight {
+    min-height: calc(100vh - 52px); /* Ajusta 52px a la altura de tu header si es diferente */
+}
+
+.section {
+    flex: 1 0 auto; /* Permite que la sección principal crezca y ocupe el espacio restante */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer {
+    flex-shrink: 0; /* Evita que el footer se encoja */
+    background-color: #012E40;
+    color: white !important;
+    padding: 1.5rem 1.5rem 1.5rem; /* Ajusta el padding según necesites */
+}
+
+.button.guardar-cambios-button {
+    background-color: #183B59;
+    color: white !important;
+    border: none; /* Opcional: quitar el borde del botón */
+}
+
+.button.guardar-cambios-button:hover {
+    background-color: #132d45; /* Un tono ligeramente más oscuro al pasar el ratón */
+}
+
+/* Estilos para la página de lista de hábitos */
+.habitos-index {
+    background-color: #024959; /* Fondo azul oscuro */
+    color: white; /* Texto blanco general */
+    padding-top: 4rem; /* Aumentamos el padding superior */
+    padding-bottom: 4rem; /* Aumentamos el padding inferior */
+}
+
+
+.habitos-index .container {
+    background-color: #f5f5f5; /* Fondo claro para el contenido */
+    color: #333; /* Texto oscuro para el contenido */
+    padding: 3rem; /* Aumentamos el padding general */
+    border-radius: 8px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.habitos-index .title {
+    color: #012E40; /* Título distintivo */
+    font-family: 'Playfair Display', serif;
+}
+
+.habitos-index .subtitle {
+    color: #012E40; /* Subtítulo secundario */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.5rem;
+}
+
+.habitos-index .button.is-primary {
+    background-color: #026773; /* Botón primario (Crear Nuevo Hábito) */
+    color: white !important;
+    border: none;
+}
+
+.habitos-index .button.is-primary:hover {
+    background-color: #025560;
+}
+
+.habitos-index .table th {
+    color: #3CA6A6; /* Encabezados de la tabla */
+    font-weight: bold;
+}
+
+.habitos-index .table td {
+    color: #333; /* Texto de las celdas de la tabla */
+}
+
+.habitos-index .table a {
+    color: #026773; /* Color de los enlaces en la tabla (Editar, Eliminar) */
+    margin-bottom: 1rem;
+}
+
+.habitos-index .table a:hover {
+    color: #025560;
+}
+
+.habitos-index .notification.is-success.is-light {
+    background-color: #e5ffe5;
+    color: #3CA6A6;
+    margin-bottom: 1rem;
+}
+
+.habitos-index .notification.is-danger.is-light {
+    background-color: #ffe0e0;
+    color: #A52502;
+    margin-bottom: 1rem;
+}
+
+.crear-habito .title {
+    color: #012E40; /* Título distintivo */
+    font-family: 'Playfair Display', serif;
+}
+
+.crear-habito .subtitle {
+    color: #012E40; /* Subtítulo secundario */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.crear-habito .label {
+    font-family: 'Roboto', sans-serif;
+}
+
+.crear-habito .input,
+.crear-habito .textarea,
+.crear-habito .select select { /* Para el texto dentro del select */
+    font-family: 'Roboto', sans-serif;
+}
+
+.editar-habito .title {
+    color: #012E40; /* Título distintivo */
+    font-family: 'Playfair Display', serif;
+}
+
+.editar-habito .subtitle {
+    color: #012E40; /* Subtítulo secundario */
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 1.5rem;
+    font-style: italic;
+}
+
+.editar-habito .label {
+    font-family: 'Roboto', sans-serif;
+}
+
+.editar-habito .input,
+.editar-habito .textarea,
+.editar-habito .select select { /* Para el texto dentro del select */
+    font-family: 'Roboto', sans-serif;
+}
+
+.habitos-index .table a.button.is-small.is-info { /* Botón Editar */
+    background-color: #183B59; /* Un azul oscuro */
+    color: white !important;
+    border: none;
+}
+
+.habitos-index .table a.button.is-small.is-info:hover {
+    background-color: #132d45; /* Azul oscuro más oscuro al pasar el ratón */
+}
+
+.habitos-index .table a.button.is-small.is-info .icon i { /* Icono Editar */
+    color: white;
+}
+
+.habitos-index .table a.button.is-small.is-danger { /* Botón Eliminar */
+    background-color: #A52502; /* Rojo oscuro */
+    color: white !important;
+    border: none;
+}
+
+.habitos-index .table a.button.is-small.is-danger:hover {
+    background-color: #7e1d02; /* Rojo oscuro más oscuro al pasar el ratón */
+}
+
+.habitos-index .table a.button.is-small.is-danger .icon i { /* Icono Eliminar */
+    color: white;
+}
+
+.habitos-index .table a.button.is-small.is-success { /* Botón Seguimiento */
+    background-color: #3CA6A6; /* Verde azulado */
+    color: white !important;
+    border: none;
+}
+
+.habitos-index .table a.button.is-small.is-success:hover {
+    background-color: #318a8a; /* Verde azulado más oscuro al pasar el ratón */
+}
+
+.habitos-index .table a.button.is-small.is-success .icon i { /* Icono Seguimiento */
+    color: white;
+}
+
+/* Estilo general para los iconos dentro de los botones de acción */
+.habitos-index .table a.button.is-small .icon i {
+    color: white; /* Asegura que los iconos sean blancos */
+}
+
+/*Modificar tamano de grafica*/
+#progreso-hoy {
+    max-width: 250px; /* Ajusta el ancho máximo */
+    max-height: 250px; /* Ajusta la altura máxima */
+}
+
+/* Estilos para el contenedor de la gráfica en la página principal */
+.grafica-container {
+    display: flex; /* Usar flexbox */
+    flex-direction: column; /* Apilar elementos verticalmente */
+    justify-content: center; /* Centrar verticalmente el contenido */
+    align-items: center; /* Centrar horizontalmente el contenido */
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; /* Asegurar que el texto interno también esté centrado */
+}
+
+.grafica-container h2 {
+    width: 100%; /* Asegurar que el título no se pegue a los bordes si el contenedor se reduce */
+    margin-bottom: 1rem; /* Espacio entre el título y la gráfica */
+}
+
+/* Tamaños específicos para las gráficas */
+#progreso-hoy {
+    max-width: 280px; /* Ajusta el tamaño máximo de la gráfica de pastel */
+    max-height: 280px; /* Ajusta el tamaño máximo de la gráfica de pastel */
+}
+
+#actividades-registradas {
+    max-width: 300px; /* Ajusta el tamaño máximo de la gráfica de líneas */
+    max-height: 200px; /* Ajusta la altura máxima de la gráfica de líneas (puede ser diferente) */
+}
+
+.usuarios-index .table a.button.is-small.is-info { /* Botón Editar */
+    background-color: #183B59; /* Un azul oscuro */
+    color: white !important;
+    border: none;
+}
+
+.usuarios-index .table a.button.is-small.is-info:hover {
+    background-color: #132d45; /* Azul oscuro más oscuro al pasar el ratón */
+}
+
+.usuarios-index .table a.button.is-small.is-info .icon i { /* Icono Editar */
+    color: white;
+}
+
+.usuarios-index .table a.button.is-small.is-danger { /* Botón Eliminar */
+    background-color: #A52502; /* Rojo oscuro */
+    color: white !important;
+    border: none;
+}
+
+.usuarios-index .table a.button.is-small.is-danger:hover {
+    background-color: #7e1d02; /* Rojo oscuro más oscuro al pasar el ratón */
+}
